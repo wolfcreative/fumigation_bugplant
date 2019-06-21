@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Уничтожение насекомых</title>
+  <title>Уничтожение вредителей</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
@@ -31,12 +31,11 @@
             <div class="second" data-uk-sticky="top: 200; animation: uk-animation-slide-top;media:960">
                 <nav class="uk-container uk-navbar-transparent uk-visible@m" data-uk-navbar>
                     <ul class="uk-navbar-nav uk-flex-center uk-width-1-1 uk-child-width-expand">
-                        <li><a href="#" data-uk-scroll="offset:80">Наши услуги</a></li>
-                        <li><a href="#" data-uk-scroll="offset:80">Каталог продукции</a></li>
-                        <li><a href="#" data-uk-scroll="offset:80">Справочник</a></li>
-                        <li><a href="#" data-uk-scroll="offset:80">Контакты</a></li>
-                        <li><a href="#" data-uk-scroll="offset:80">Компания</a></li>
-                        <li><a href="#" data-uk-scroll="offset:80">Франшиза</a></li>
+                        <li><a href="#advantages" data-uk-scroll="offset:80">Преимущества</a></li>
+                        <li><a href="#special" data-uk-scroll="offset:80">Акция</a></li>
+                        <li><a href="#services" data-uk-scroll="offset:80">Наши услуги</a></li>
+                        <li><a href="#views" data-uk-scroll="offset:80">Виды обработки</a></li>
+                        <li><a href="#reviews" data-uk-scroll="offset:80">Отзывы</a></li>
                     </ul>
                 </nav>
             </div>
@@ -77,7 +76,7 @@
                     </div>
                 </div>
 
-                <h2 class="uk-text-center uk-margin-large-top">Наши преимущества</h2>
+                <h2 class="uk-text-center uk-margin-large-top" id="advantages">Наши преимущества</h2>
                 <div class="advantages uk-grid uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-5@m uk-flex-center uk-text-center uk-margin-medium-top" data-uk-grid>
                     <div>
                         <div class="circle">
@@ -87,52 +86,55 @@
                     </div>
                     <div>
                         <div class="circle">
-                            <img src="img/advantages/2.png" alt="" width="66" height="60" />
+                            <img src="img/advantages/2.png" alt="100% гарантированный результат" width="66" height="60" />
                         </div>
-                        <span>Опыт работы<br/>более 12 лет</span>
+                        <span>100% гарантированный<br/>результат</span>
                     </div>
                     <div>
                         <div class="circle">
-                            <img src="img/advantages/3.png" alt="" width="66" height="60" />
+                            <img src="img/advantages/3.png" alt="Безопасные препараты" width="66" height="60" />
                         </div>
-                        <span>Опыт работы<br/>более 12 лет</span>
+                        <span>Безопасные<br/>препараты</span>
                     </div>
                     <div>
                         <div class="circle">
-                            <img src="img/advantages/4.png" alt="" width="66" height="60" />
+                            <img src="img/advantages/4.png" alt="Быстрота проведения процедуры" width="66" height="60" />
                         </div>
-                        <span>Опыт работы<br/>более 12 лет</span>
+                        <span>Быстрота проведения<br/>процедуры</span>
                     </div>
                     <div>
                         <div class="circle">
-                            <img src="img/advantages/5.png" alt="" width="66" height="60" />
+                            <img src="img/advantages/5.png" alt="Возможность срочного выезда специалиста" width="66" height="60" />
                         </div>
-                        <span>Опыт работы<br/>более 12 лет</span>
+                        <span>Возможность срочного<br/>выезда специалиста</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="special" style="background-image:url(img/backgrounds/special-1.jpg)">
+        <div class="special" style="background-image:url(img/backgrounds/special-1.jpg)" id="special">
             <div class="uk-container">
                 <h2>Специальное предложение!</h2>
                 <p>При обработке от 1000 тонн мы предоставляем <strong>скидку в 20%</strong></p>
 
                 <form action="" method="get" name="form-1" class="uk-grid uk-flex-center uk-margin-medium-top" data-uk-grid>
                     <div class="uk-width-1-2@s uk-width-1-3@m">
-                        <input class="uk-input uk-width-1-1" type="text" name="name" placeholder="Ваше имя">
+                        <input class="uk-input large uk-width-1-1" type="text" name="name" placeholder="Ваше имя">
                     </div>
                     <div class="uk-width-1-2@s uk-width-1-3@m">
-                        <input class="uk-input uk-width-1-1" type="tel" name="phone" placeholder="Телефон">
+                        <input class="uk-input large uk-width-1-1" type="tel" name="phone" placeholder="Телефон">
                     </div>
                     <div class="uk-width-1-1 uk-width-1-3@m">
                         <button class="uk-width-1-1 uk-button uk-button-large uk-button-yellow feedback" type="button" name="send">Отправить</button>
+                    </div>
+                    <div class="uk-width-1-1 uk-margin-small-top uk-text-center">
+                        <p class="uk-text-small">Нажимая "Отправить", вы автоматически соглашаетесь с <a href="#modal-privacy" class="uk-text-muted" data-uk-toggle>политикой конфиденциальности</a></p>
                     </div>
                 </form>
             </div>
         </div>
 
-        <div class="services">
+        <div class="services" id="services">
             <div class="uk-container">
                 <h2 class="uk-text-center">Наши услуги</h2>
 
@@ -144,11 +146,44 @@
                         <p class="uk-margin-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
 
                         <a href="#modal-service1" class="link" data-uk-toggle>Подробнее</a>
+
+                        <div id="modal-service1" class="uk-modal uk-modal-text" data-uk-modal>
+                            <div class="uk-modal-dialog uk-modal-body">
+                                <button class="uk-modal-close-default" type="button" data-uk-close></button>
+
+                                <div class="title-box uk-grid uk-flex-middle uk-margin-remove-bottom" data-uk-grid>
+                                    <div class="uk-width-1-1 uk-width-auto@m uk-text-center">
+                                        <img src="img/modal-1.jpg" alt="" width="376" height="276" />
+                                    </div>
+                                    <div class="uk-width-expand@m">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
+                                    </div>
+                                </div>
+                                <hr class="uk-margin-medium-top uk-margin-bottom" />
+
+                                <form action="" method="get" name="form-1" class="uk-grid-small uk-margin-bottom uk-flex-center" data-uk-grid>
+                                    <div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
+                                        <h3 class="title uk-margin-small-bottom">Узнайте больше об обработке газом</h3>
+                                        <p class="uk-margin-small-top">Оставьте заявку. Мы перезвоним</p>
+                                    </div>
+                                    
+                                    <div class="uk-width-1-2@s uk-width-1-3@m">
+                                        <input class="uk-input large" type="text" name="name" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="uk-width-1-2@s uk-width-1-3@m">
+                                        <input class="uk-input large" type="tel" name="phone" placeholder="Телефон">
+                                    </div>
+                                    <div class="uk-width-1-2@s uk-width-1-3@m">
+                                        <button class="uk-button uk-button-yellow uk-button-large feedback uk-width-1-1" type="button" name="send">Отправить</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <a href="#modal-service1" class="uk-display-block" data-uk-toggle><img src="img/services/2.jpg" alt="" width="285" height="285" /></a>
 
-                        <h3 class="uk-margin-top uk-margin-small-bottom">Фумигация помещений</h3>
+                        <h3 class="uk-margin-top uk-margin-small-bottom">Фумигация продукции</h3>
                         <p class="uk-margin-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
 
                         <a href="#modal-service1" class="link" data-uk-toggle>Подробнее</a>
@@ -156,7 +191,7 @@
                     <div>
                         <a href="#modal-service1" class="uk-display-block" data-uk-toggle><img src="img/services/3.jpg" alt="" width="285" height="285" /></a>
 
-                        <h3 class="uk-margin-top uk-margin-small-bottom">Фумигация помещений</h3>
+                        <h3 class="uk-margin-top uk-margin-small-bottom">ФУМИГАЦИЯ ТАРЫ ПО ISPM 15</h3>
                         <p class="uk-margin-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
 
                         <a href="#modal-service1" class="link" data-uk-toggle>Подробнее</a>
@@ -164,7 +199,7 @@
                     <div>
                         <a href="#modal-service1" class="uk-display-block" data-uk-toggle><img src="img/services/4.jpg" alt="" width="285" height="285" /></a>
 
-                        <h3 class="uk-margin-top uk-margin-small-bottom">Фумигация помещений</h3>
+                        <h3 class="uk-margin-top uk-margin-small-bottom">Фумигация древесины</h3>
                         <p class="uk-margin-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
 
                         <a href="#modal-service1" class="link" data-uk-toggle>Подробнее</a>
@@ -172,7 +207,7 @@
                 </div>
 
                 <div class="uk-clearfix"><br/></div>
-                <h2 class="uk-text-center uk-margin-large-top">Фумигация продукции под палаткой</h2>
+                <h2 class="uk-text-center uk-margin-large-top" id="views">Фумигация продукции под палаткой</h2>
                 <div class="uk-accordion uk-margin-medium-top uk-margin-small-bottom" data-uk-accordion="collapsible: false">
                     <div class="uk-open">
                         <a class="uk-accordion-title" href="#">Фумигация продукции под палаткой</a>
@@ -275,6 +310,68 @@
             </div>
         </div>
 
+        <div class="scheme">
+            <div class="uk-container">
+                <h2 class="uk-text-center">Схема работы</h2>
+                <div class="advantages uk-grid uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-5@m uk-flex-center uk-text-center uk-margin-medium-top" data-uk-grid>
+                    <div>
+                        <div class="circle">
+                            <img src="img/scheme/1.png" alt="Заключаем договор с заказчиком" width="66" height="60" />
+                        </div>
+                        <span>Заключаем договор<br/>с заказчиком</span>
+                    </div>
+                    <div>
+                        <div class="circle">
+                            <img src="img/scheme/2.png" alt="Получаем оплату за услугу" width="66" height="60" />
+                        </div>
+                        <span>Получаем оплату<br/>за услугу</span>
+                    </div>
+                    <div>
+                        <div class="circle">
+                            <img src="img/scheme/3.png" alt="Отправляем специалиста на обьект заказчика" width="66" height="60" />
+                        </div>
+                        <span>Отправляем специалиста<br/>на обьект заказчика</span>
+                    </div>
+                    <div>
+                        <div class="circle">
+                            <img src="img/scheme/4.png" alt="Обрабатываем объект" width="66" height="60" />
+                        </div>
+                        <span>Обрабатываем<br/>объект</span>
+                    </div>
+                    <div>
+                        <div class="circle">
+                            <img src="img/scheme/5.png" alt="Проводим дегазацию" width="66" height="60" />
+                        </div>
+                        <span>Проводим<br/>дегазацию</span>
+                    </div>
+                </div>
+
+                <h2 class="uk-text-center uk-margin-large-top" id="reviews">Отзывы о нас</h2>
+                <div class="reviews uk-card uk-card-default uk-card-body uk-margin-medium-top">
+                    <div data-uk-slider="autoplay:true">
+                        <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+                            <ul class="uk-slider-items uk-child-width-1-1">
+                                <li>
+                                    <h3 class="uk-margin-small-bottom">Имя Фамилимя</h3>
+                                    <p class="uk-margin-small-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                </li>
+                                <li>
+                                    <h3 class="uk-margin-small-bottom">Имя Фамилимя</h3>
+                                    <p class="uk-margin-small-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                </li>
+                                <li>
+                                    <h3 class="uk-margin-small-bottom">Имя Фамилимя</h3>
+                                    <p class="uk-margin-small-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="prefooter">
             <div class="uk-container uk-flex uk-flex-right">
                 <div class="info">
@@ -290,16 +387,15 @@
 
     <footer id="footer">
         <div class="uk-container">
-            <div class="second">
+            <div class="wrapper">
                 <div class="uk-grid uk-grid-small uk-flex-middle" data-uk-grid="margin:uk-margin-top">
                     <div class="uk-width-expand uk-visible@m">
                         <ul class="uk-navbar-nav uk-flex-center uk-width-1-1 uk-child-width-expand">
-                            <li><a href="#" data-uk-scroll="offset:80">Наши услуги</a></li>
-                            <li><a href="#" data-uk-scroll="offset:80">Каталог продукции</a></li>
-                            <li><a href="#" data-uk-scroll="offset:80">Справочник</a></li>
-                            <li><a href="#" data-uk-scroll="offset:80">Контакты</a></li>
-                            <li><a href="#" data-uk-scroll="offset:80">Компания</a></li>
-                            <li><a href="#" data-uk-scroll="offset:80">Франшиза</a></li>
+                            <li><a href="#advantages" data-uk-scroll="offset:80">Преимущества</a></li>
+                            <li><a href="#special" data-uk-scroll="offset:80">Акция</a></li>
+                            <li><a href="#services" data-uk-scroll="offset:80">Наши услуги</a></li>
+                            <li><a href="#views" data-uk-scroll="offset:80">Виды обработки</a></li>
+                            <li><a href="#reviews" data-uk-scroll="offset:80">Отзывы</a></li>
                         </ul>
                     </div>
                     <div class="uk-width-1-1 uk-width-auto@m uk-text-center uk-flex-center">
@@ -335,9 +431,10 @@
                     <div class="uk-width-1-2@s">
                         <input class="uk-input" type="tel" name="phone" placeholder="Телефон">
                     </div>
-                    <p class="uk-width-1-1 uk-text-center uk-margin-medium-top">
-                        <button class="uk-button uk-button-yellow uk-button-medium feedback" type="button" name="send">Отправить</button>
-                    </p>
+                    <div class="uk-width-1-1 uk-text-center">
+                        <button class="uk-button uk-button-medium uk-button-yellow uk-margin-small-top feedback" type="button" name="send">Отправить</button>
+                        <p class="uk-text-muted uk-text-small uk-margin-small-top">Нажимая "Отправить", вы автоматически соглашаетесь с <a href="#modal-privacy" data-uk-toggle>политикой конфиденциальности</a></p>
+                    </div>
                 </form>
             </div>
         </div>
@@ -346,12 +443,163 @@
     <div id="offcanvas-menu" data-uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar">
             <ul class="uk-nav uk-nav-default">
-                <li><a href="#benefits" data-uk-scroll="offset:80">Преимущества</a></li>
-                <li><a href="#about" data-uk-scroll="offset:80">Об обработке</a></li>
-                <li><a href="#ourwork" data-uk-scroll="offset:80">Наши работы</a></li>
-                <li><a href="#price" data-uk-scroll="offset:80">Расчет стоимости</a></li>
+                <li><a href="#advantages" data-uk-scroll="offset:80">Преимущества</a></li>
+                <li><a href="#special" data-uk-scroll="offset:80">Акция</a></li>
                 <li><a href="#services" data-uk-scroll="offset:80">Наши услуги</a></li>
+                <li><a href="#views" data-uk-scroll="offset:80">Виды обработки</a></li>
+                <li><a href="#reviews" data-uk-scroll="offset:80">Отзывы</a></li>
             </ul>
+        </div>
+    </div>
+
+    <div id="modal-privacy" data-uk-modal class="uk-modal">
+        <div class="uk-modal-dialog">
+            <div class="uk-modal-header">
+                <h4 class="uk-modal-title uk-text-center">Политика конфиденциальности</h4>
+            </div>
+            <div class="uk-modal-body">
+                <p>Настоящая Политика конфиденциальности персональной информации (далее
+                    —
+                    Политика)
+                    действует в отношении всей информации, которую
+                    Сайт ( могут получить о пользователе
+                    во время
+                    использования им сайта
+                    . Согласие пользователя на предоставление персональной информации,
+                    данное им в соответствии с настоящей Политикой в рамках
+                    отношений с одним из лиц, входящих ,
+                    распространяется на все лица
+                    .</p>
+                <p>Использование
+                    Сайт а означает безоговорочное согласие пользователя с
+                    настоящей Политикой и
+                    указанными в ней условиями обработки его персональной информации; в случае несогласия с
+                    этими условиями пользователь должен
+                    воздержаться от использования Сервисов.</p>
+                <br>1. Персональная информация пользователей, которую получает и обрабатывает
+                Сайт
+                <br>1.1. В рамках настоящей Политики под «персональной информацией пользователя»
+                понимаются:
+                <br>1.1.1. Персональная информация, которую пользователь предоставляет о себе
+                самостоятельно
+                заполнении форм обратной связи, включая персональные данные
+                пользователя.
+                Обязательная для предоставления Сервисов (оказания услуг) информация помечена специальным
+                образом. Иная информация предоставляется
+                пользователем на его усм
+                отрение.
+                <br>1.1.2 Данные, которые автоматически передаются в процессе их использования с помощью
+                установленного на устройстве пользователя
+                программного обеспечения, в том числе IP
+                -
+                адрес,
+                инф ормация из cookie,
+                информация о браузере пользователя (или иной программе, с помощью
+                которой осуществляется доступ к Сервисам), время доступа, адрес запрашиваемой
+                страницы.
+                <br>1.2. Настоящая Политика применима только к
+                Сайт . Сайт не контролирует и не несет
+                ответственность за сайты третьих лиц, на которые пользователь может перейти по ссылкам,
+                доступным на сайтах
+                Сайт , в том числе в результатах поиска. На таких
+                сайтах у пользователя
+                може т собираться или запрашиваться иная персональная
+                информация, а также могут совершаться
+                иные действия.
+                <br>1.3. Сайт в общем случае не проверяет достоверность персональной информации,
+                предоставляемой пользователями, и не осуществляет
+                контроль за их дееспособностью. Однако
+                Сайт исходит из того, что пользователь предоставляет достоверную и достаточную
+                персональную
+                информацию по вопросам, предлагаемым в форме регистрации, и поддерживает эту
+                информацию в ак
+                туальном состоянии.
+                <br>2. Цели сбора и обработки персональной информации пользователей
+                <br>2.1. Сайт собирает и хранит только те персональные данные, которые необходимы для
+                предоставления и оказания услуг (исполнения
+                соглашений и дог
+                оворов с пользователем).
+                <br>2.2. Персональную информацию пользователя
+                Сайт может использовать в
+                следующих целях:
+                <br>2.2.1. Идентификация стороны в рамках соглашений и договоров с Сайт
+                <br>2.2.2. Предоставление
+                пользователю персонализированных услуг;
+                <br>2.2.3. Связь с пользователем, в том числе направление уведомлений, запросов и
+                информации,
+                касающихся использования Сервисов, оказания услуг, а также
+                обработка запросов и заявок от
+                пользователя;
+                <br>2.2.4. Улучшение каче
+                ства, удобства их использования, разработка услуг;
+                <br>2.2.5. Таргетирование рекламных материалов;
+                <br>2.2.6. Проведение статистических и иных исследований на основе обезличенных данных.
+                <br>3. Условия обработки персональной информации пользователя и её передачи тре
+                тьим лицам
+                <br>3.1. Сайт хранит персональную информацию
+                пользователей в соответствии с внутренними
+                регламентами конкретных сервисов.
+                <br>3.2. В отношении персональной информации пользователя сохраняется ее
+                конфиденциальность,
+                кроме случаев добровольного предоставления
+                пользователем информации о
+                себе для общего
+                доступа неограниченному кругу лиц.
+                При использовании отдельных Сервисов пользователь соглашается с тем, что
+                определённая часть
+                его персональной инф
+                ормации становится общедоступной.
+                <br>3.3. Сайт вправе передать персональную информацию
+                пользователя третьим лицам в следующих
+                случаях:
+                <br>3.3.1. Пользователь выразил свое согласие на такие действия;
+                <br>3.3.2. Передача необходима в рамках
+                использования пользователем
+                определенного Сервиса либо
+                для оказания услуги пользователю;
+                <br>3.3.3. Передача предусмотрена российским или иным применимым
+                законодательством в рамках
+                установленной законодательством процедуры;
+                <br>3.3.4. Такая передача происходит
+                в рамках продажи или иной передачи бизнеса (полностью или в
+                части), при этом к приобретателю переходят все обязательства по соблюдению условий
+                настоящей Политики применительно к полученной им
+                персональной информации;
+                <br>3.3.5. В целях обеспечения возможнос
+                ти защиты прав и законных интересов Сайт
+                или третьих лиц
+                в случаях, когда пользователь
+                нарушает Пользовательское соглашение сервисов Сайт
+                .
+                <br>3.4. При обработке персональных данных пользователей Сайт
+                руководствуется Федеральным
+                законом РФ «О персональных данных».
+                <br>4. Изменение пользователем персональной информации
+                <br>4.1. Пользователь может в любой момент изменить (обновить, дополнить)
+                предоставленную им
+                персональную информацию и
+                ли её часть, а также параметры
+                её конфиденциальности.
+                <br>5. Меры, применяемые для защиты персональной информации пользователей
+                Сайт принимает
+                необходимые и достаточные организационные и технические меры для защиты персональной
+                информации
+                пользователя от неправомерного или случайного доступа, уничтожения, изменения,
+                блокирования, копирования, распространения, а также от иных неправомерных действий с ней
+                третьих лиц.
+                <br>6.
+                Изменение Политики конфиденциальности. Применимое законодательство
+                <br>6.1. Сайт имеет право вносить изменения в настоящую Политику конфиденциальности. При
+                внесении изменений в актуальной редакции
+                указывается дата последнего обновл
+                ения. Новая
+                редакция Политики вступает в силу с момента ее размещения, если иное не предусмотрено новой
+                редакцией Политики.
+                <br>6.2. К настоящей Политике и отношениям между пользователем и
+                Сайт , возникающим в связи с
+                применением Политики конфиденциальности, подлежит применению право Российской
+                Федерациии
+            </div>
         </div>
     </div>
 </body>
